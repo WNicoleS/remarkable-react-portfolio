@@ -1,0 +1,249 @@
+* {
+    color: rgb(186, 189, 173);
+    font-family: Kenia;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav,
+main,
+footer {
+    background-color: rgb(15, 15, 15);   
+}
+
+nav {
+    position: fixed;
+    width: 5%;
+    height: 100%;
+}
+
+a {
+    font-family: Supermercado One;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    display: block;
+    border-top: solid 3px;
+    padding: 50% 0% 50% 0%;
+    margin-left: 35%;
+    margin-top: 15%;
+    transform: rotate(180deg);
+    transition: 
+        text-shadow 0.5s,
+        border-top 0s;
+}
+
+a:hover {
+    text-shadow: 0px 0px 15px white;
+    border-top: solid rgb(186, 189, 173) 3px;
+}
+
+#border {
+    border-top: transparent;
+}
+
+#cover {
+    background-image: radial-gradient(circle, #00000000 20%, #00000050 40%, #040306e0 50%), url("../src/components/assets/images/irina-iriser-uru.jpg");
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    padding: 200px 0px 200px 0px;
+}
+
+h1,
+h2 {
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.728), 0 0 25px rgba(0, 0, 0, 0.795), 0 0 5px rgba(0, 0, 0, 0.845);    
+}
+
+#about-me,
+#projects,
+#resume,
+#contact {
+    border-top: 5px solid rgb(186, 189, 173);
+    border-left: 70px solid rgb(186, 189, 173);
+    border-bottom: 5px solid rgb(186, 189, 173);
+}
+
+h2 {
+    font-size: 60px;
+}
+
+#about-me {
+    background-color: rgb(15, 15, 15);
+    display: inline-flex;
+    height: 600px;
+}
+
+#about-me h2,
+#about-me p {
+    margin-left: 3%;
+}
+
+#about-me h2 {
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -15px;
+    word-spacing: -5px;
+}
+
+#about-me p {
+    font-family: Federo;
+    font-size: 25px;
+    text-align: center;
+    word-break: break-word;
+    line-height: 3;
+    border: 1px solid transparent;
+    width: 25%;
+    position: relative;
+    top: 130px;
+    left: 200px;
+}
+
+img {
+    position: relative;
+    border: double rgb(186, 189, 173) 7px;
+    height: 386px;
+    width: 290px;
+    top: 100px;
+    left: 135px;
+}
+
+#projects {
+    padding: 200px 0px 200px 0px;
+    height: 450px;
+}
+
+#projects h2 {
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.proj {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#proj-1,
+#proj-2,
+#proj-3 {
+    border: 7px solid rgb(186, 189, 173);
+    position: relative;
+    width: 300px;
+    height: 300px;
+    opacity: 50%;
+    transition-duration: 1s
+}
+
+#proj-1 p,
+#proj-2 p,
+#proj-3 p {
+    color: rgb(186, 189, 173);
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+#proj-1 {
+    background-image: url("../src/components/assets/images/superShopper.png");
+    background-size: 300px 300px;
+}
+
+#proj-2 {
+    background-image: url("../src/components/assets/images/harmonyHub.png");
+    background-size: 300px 300px;
+    left: 385px;
+    bottom: 315px;
+}
+
+#proj-3 {
+    float: right;
+    bottom: 626px;
+}
+
+#proj-1:hover,
+#proj-2:hover,
+#proj-3:hover {
+    opacity: 100%;
+}
+
+#resume,
+#projects {
+    background-image: linear-gradient( #00000000 10%, #00000050 30%, #040306e0 50%), url("../src/components/assets/images/irina-iriser-uru.jpg");
+    background-attachment: fixed;
+}
+
+#resume h2 {
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+}
+
+#contact {
+    background-image: linear-gradient( #00000000 10%, #00000050 30%, #040306e0 50%), url("../src/components/assets/images/irina-iriser-uru.jpg");
+    background-attachment: fixed;
+    padding: 200px 0px 200px 0px;
+}
+
+#contact h2 {
+    text-align: center;
+    float: right;
+    right: 250px;
+}
+
+#contact h2,
+#email,
+#text,
+button {
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+
+#email,
+#text {
+    color: rgb(186, 189, 173);
+    font-size: 20px;
+    font-family: Federo;
+    background-color: rgba(0, 0, 0, 0.505);
+    border: 7px double rgb(186, 189, 173);
+}
+
+#email {
+    width: 300px;
+    height: 50px;
+    bottom: 250px;
+    left: 129px;
+    bottom: 200px;
+}
+
+#text {
+    width: 300px;
+    height: 300px;
+    right: 300px;
+}
+
+button {
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    left: 129px;
+    transition: 
+    box-shadow 0.5s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 15px whitesmoke;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
